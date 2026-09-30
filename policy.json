@@ -1,0 +1,18 @@
+{
+  "name": "Industry-relative trade credit policy v2 — illustrative, not default-calibrated",
+  "currency": "USD",
+  "max_statement_age_days": 450,
+  "max_benchmark_age_days": 730,
+  "minimum_industry_firms": 10,
+  "rounding_increment": 1000,
+  "max_overdue_days": 30,
+  "industry_score_weights": {"gross_margin": 0.25, "net_margin": 0.35, "receivables_sales": 0.25, "inventory_sales": 0.15},
+  "metric_scale_floors": {"gross_margin": 0.01, "net_margin": 0.01, "receivables_sales": 0.01, "inventory_sales": 0.01},
+  "score_limit_bands": [
+    {"name": "Tier 1", "minimum_score": 80, "percentages": {"cash": 0.20, "working_capital": 0.10, "tangible_net_worth": 0.05}},
+    {"name": "Tier 2", "minimum_score": 60, "percentages": {"cash": 0.15, "working_capital": 0.075, "tangible_net_worth": 0.03}},
+    {"name": "Tier 3", "minimum_score": 40, "percentages": {"cash": 0.10, "working_capital": 0.05, "tangible_net_worth": 0.02}},
+    {"name": "Tier 4", "minimum_score": 0, "percentages": {"cash": 0.05, "working_capital": 0.025, "tangible_net_worth": 0.01}}
+  ],
+  "stress": {"cash_haircut": 0.20, "current_assets_haircut": 0.15, "equity_haircut": 0.20, "operating_cash_flow_haircut": 0.30, "extra_collection_days": 15}
+}

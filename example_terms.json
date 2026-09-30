@@ -1,0 +1,19 @@
+{
+  "input_kind": "hypothetical commercial scenario, not an actual Grainger relationship",
+  "currency": "USD",
+  "industry": "Retail (Distributors)",
+  "limit_basis": "working_capital",
+  "annual_sales_to_customer": 12000000,
+  "payment_terms_days": 45,
+  "collection_buffer_days": 15,
+  "peak_exposure_multiplier": 1.25,
+  "current_receivables": 900000,
+  "committed_unbilled_orders": 100000,
+  "other_group_exposure": 0,
+  "oldest_overdue_days": 0,
+  "single_customer_cap": 3000000,
+  "group_cap": 5000000,
+  "portfolio_limit_budget": 50000000,
+  "max_customer_share": 0.05,
+  "remaining_portfolio_budget_excluding_customer": 4000000
+}

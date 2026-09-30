@@ -1,0 +1,786 @@
+{
+  "provider": "Aswath Damodaran, NYU Stern",
+  "region": "US listed companies",
+  "vintage": "2026-01",
+  "verified_on": "2026-09-30",
+  "available_from": "2026-09-30",
+  "statistic": "Published sector ratios; not medians, percentiles, or default statistics",
+  "sources": {
+    "margins": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html",
+    "working_capital": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wcdata.html"
+  },
+  "source_sha256": {
+    "margins": "56c79e830dff33433c1ee66cea14ab2156d465a8de349d734f40235899bf1090",
+    "working_capital": "26145232c5b4a969438081a4420d09f288b5bdefcf1a9e8bbd3659d05f8157d5"
+  },
+  "industries": {
+    "Advertising": {
+      "firms": 52,
+      "gross_margin": 0.3624,
+      "net_margin": -0.003,
+      "receivables_sales": 0.4738,
+      "inventory_sales": 0.0557,
+      "treatment": "general_corporate"
+    },
+    "Aerospace/Defense": {
+      "firms": 79,
+      "gross_margin": 0.1748,
+      "net_margin": 0.0499,
+      "receivables_sales": 0.23929999999999998,
+      "inventory_sales": 0.2894,
+      "treatment": "general_corporate"
+    },
+    "Air Transport": {
+      "firms": 23,
+      "gross_margin": 0.24789999999999998,
+      "net_margin": 0.025099999999999997,
+      "receivables_sales": 0.04,
+      "inventory_sales": 0.030600000000000002,
+      "treatment": "general_corporate"
+    },
+    "Apparel": {
+      "firms": 35,
+      "gross_margin": 0.5688,
+      "net_margin": 0.0385,
+      "receivables_sales": 0.1253,
+      "inventory_sales": 0.1925,
+      "treatment": "general_corporate"
+    },
+    "Auto & Truck": {
+      "firms": 33,
+      "gross_margin": 0.1041,
+      "net_margin": 0.0129,
+      "receivables_sales": 0.063,
+      "inventory_sales": 0.09910000000000001,
+      "treatment": "general_corporate"
+    },
+    "Auto Parts": {
+      "firms": 35,
+      "gross_margin": 0.15839999999999999,
+      "net_margin": 0.0072,
+      "receivables_sales": 0.1705,
+      "inventory_sales": 0.1247,
+      "treatment": "general_corporate"
+    },
+    "Bank (Money Center)": {
+      "firms": 15,
+      "gross_margin": 1.0,
+      "net_margin": 0.2889,
+      "receivables_sales": 0.0,
+      "inventory_sales": 0.0017000000000000001,
+      "treatment": "specialist_review"
+    },
+    "Banks (Regional)": {
+      "firms": 568,
+      "gross_margin": 0.9962000000000001,
+      "net_margin": 0.2749,
+      "receivables_sales": 0.0,
+      "inventory_sales": 0.008199999999999999,
+      "treatment": "specialist_review"
+    },
+    "Beverage (Alcoholic)": {
+      "firms": 14,
+      "gross_margin": 0.4696,
+      "net_margin": 0.005600000000000001,
+      "receivables_sales": 0.10039999999999999,
+      "inventory_sales": 0.1975,
+      "treatment": "general_corporate"
+    },
+    "Beverage (Soft)": {
+      "firms": 27,
+      "gross_margin": 0.5474,
+      "net_margin": 0.134,
+      "receivables_sales": 0.1188,
+      "inventory_sales": 0.0806,
+      "treatment": "general_corporate"
+    },
+    "Broadcasting": {
+      "firms": 24,
+      "gross_margin": 0.38130000000000003,
+      "net_margin": 0.0206,
+      "receivables_sales": 0.1971,
+      "inventory_sales": 0.024900000000000002,
+      "treatment": "general_corporate"
+    },
+    "Brokerage & Investment Banking": {
+      "firms": 32,
+      "gross_margin": 0.5327000000000001,
+      "net_margin": 0.1445,
+      "receivables_sales": 1.4013999999999998,
+      "inventory_sales": 0.0028000000000000004,
+      "treatment": "specialist_review"
+    },
+    "Building Materials": {
+      "firms": 41,
+      "gross_margin": 0.3094,
+      "net_margin": 0.0742,
+      "receivables_sales": 0.1378,
+      "inventory_sales": 0.1364,
+      "treatment": "general_corporate"
+    },
+    "Business & Consumer Services": {
+      "firms": 155,
+      "gross_margin": 0.33380000000000004,
+      "net_margin": 0.0703,
+      "receivables_sales": 0.1843,
+      "inventory_sales": 0.0139,
+      "treatment": "general_corporate"
+    },
+    "Cable TV": {
+      "firms": 9,
+      "gross_margin": 0.6291,
+      "net_margin": 0.0708,
+      "receivables_sales": 0.0861,
+      "inventory_sales": 0.0019,
+      "treatment": "general_corporate"
+    },
+    "Chemical (Basic)": {
+      "firms": 29,
+      "gross_margin": 0.0931,
+      "net_margin": -0.0373,
+      "receivables_sales": 0.1115,
+      "inventory_sales": 0.1565,
+      "treatment": "general_corporate"
+    },
+    "Chemical (Diversified)": {
+      "firms": 4,
+      "gross_margin": 0.1532,
+      "net_margin": -0.0535,
+      "receivables_sales": 0.13369999999999999,
+      "inventory_sales": 0.1997,
+      "treatment": "general_corporate"
+    },
+    "Chemical (Specialty)": {
+      "firms": 59,
+      "gross_margin": 0.35119999999999996,
+      "net_margin": 0.0291,
+      "receivables_sales": 0.18280000000000002,
+      "inventory_sales": 0.17579999999999998,
+      "treatment": "general_corporate"
+    },
+    "Coal & Related Energy": {
+      "firms": 16,
+      "gross_margin": 0.14859999999999998,
+      "net_margin": -0.0213,
+      "receivables_sales": 0.0821,
+      "inventory_sales": 0.17120000000000002,
+      "treatment": "general_corporate"
+    },
+    "Computer Services": {
+      "firms": 64,
+      "gross_margin": 0.2426,
+      "net_margin": 0.044500000000000005,
+      "receivables_sales": 0.213,
+      "inventory_sales": 0.0812,
+      "treatment": "general_corporate"
+    },
+    "Computers/Peripherals": {
+      "firms": 36,
+      "gross_margin": 0.3836,
+      "net_margin": 0.1778,
+      "receivables_sales": 0.10679999999999999,
+      "inventory_sales": 0.0592,
+      "treatment": "general_corporate"
+    },
+    "Construction Supplies": {
+      "firms": 40,
+      "gross_margin": 0.2552,
+      "net_margin": 0.10779999999999999,
+      "receivables_sales": 0.1483,
+      "inventory_sales": 0.2095,
+      "treatment": "general_corporate"
+    },
+    "Diversified": {
+      "firms": 20,
+      "gross_margin": 0.2581,
+      "net_margin": 0.1637,
+      "receivables_sales": 0.12210000000000001,
+      "inventory_sales": 0.0898,
+      "treatment": "general_corporate"
+    },
+    "Drugs (Biotechnology)": {
+      "firms": 496,
+      "gross_margin": 0.6078,
+      "net_margin": -0.05,
+      "receivables_sales": 0.2137,
+      "inventory_sales": 0.12,
+      "treatment": "general_corporate"
+    },
+    "Drugs (Pharmaceutical)": {
+      "firms": 228,
+      "gross_margin": 0.7173,
+      "net_margin": 0.18539999999999998,
+      "receivables_sales": 0.218,
+      "inventory_sales": 0.1561,
+      "treatment": "general_corporate"
+    },
+    "Education": {
+      "firms": 32,
+      "gross_margin": 0.4582,
+      "net_margin": 0.08789999999999999,
+      "receivables_sales": 0.12119999999999999,
+      "inventory_sales": 0.0169,
+      "treatment": "general_corporate"
+    },
+    "Electrical Equipment": {
+      "firms": 112,
+      "gross_margin": 0.3182,
+      "net_margin": 0.009399999999999999,
+      "receivables_sales": 0.2583,
+      "inventory_sales": 0.2025,
+      "treatment": "general_corporate"
+    },
+    "Electronics (Consumer & Office)": {
+      "firms": 8,
+      "gross_margin": 0.38770000000000004,
+      "net_margin": -0.0942,
+      "receivables_sales": 0.09269999999999999,
+      "inventory_sales": 0.1363,
+      "treatment": "general_corporate"
+    },
+    "Electronics (General)": {
+      "firms": 114,
+      "gross_margin": 0.2676,
+      "net_margin": 0.0647,
+      "receivables_sales": 0.1913,
+      "inventory_sales": 0.1809,
+      "treatment": "general_corporate"
+    },
+    "Engineering/Construction": {
+      "firms": 48,
+      "gross_margin": 0.15460000000000002,
+      "net_margin": 0.0594,
+      "receivables_sales": 0.2752,
+      "inventory_sales": 0.0154,
+      "treatment": "general_corporate"
+    },
+    "Entertainment": {
+      "firms": 92,
+      "gross_margin": 0.4139,
+      "net_margin": 0.0443,
+      "receivables_sales": 0.09910000000000001,
+      "inventory_sales": 0.0175,
+      "treatment": "general_corporate"
+    },
+    "Environmental & Waste Services": {
+      "firms": 53,
+      "gross_margin": 0.363,
+      "net_margin": 0.0824,
+      "receivables_sales": 0.156,
+      "inventory_sales": 0.0174,
+      "treatment": "general_corporate"
+    },
+    "Farming/Agriculture": {
+      "firms": 35,
+      "gross_margin": 0.1309,
+      "net_margin": 0.0391,
+      "receivables_sales": 0.08109999999999999,
+      "inventory_sales": 0.1666,
+      "treatment": "general_corporate"
+    },
+    "Financial Svcs. (Non-bank & Insurance)": {
+      "firms": 176,
+      "gross_margin": 0.6920000000000001,
+      "net_margin": 0.22190000000000001,
+      "receivables_sales": 13.3222,
+      "inventory_sales": 0.0036,
+      "treatment": "specialist_review"
+    },
+    "Food Processing": {
+      "firms": 78,
+      "gross_margin": 0.2323,
+      "net_margin": 0.0282,
+      "receivables_sales": 0.0776,
+      "inventory_sales": 0.1341,
+      "treatment": "general_corporate"
+    },
+    "Food Wholesalers": {
+      "firms": 13,
+      "gross_margin": 0.15439999999999998,
+      "net_margin": 0.011699999999999999,
+      "receivables_sales": 0.055999999999999994,
+      "inventory_sales": 0.0662,
+      "treatment": "general_corporate"
+    },
+    "Furn/Home Furnishings": {
+      "firms": 27,
+      "gross_margin": 0.3028,
+      "net_margin": 0.011000000000000001,
+      "receivables_sales": 0.13390000000000002,
+      "inventory_sales": 0.18289999999999998,
+      "treatment": "general_corporate"
+    },
+    "Green & Renewable Energy": {
+      "firms": 15,
+      "gross_margin": 0.5524,
+      "net_margin": -0.10830000000000001,
+      "receivables_sales": 0.5948,
+      "inventory_sales": 0.0259,
+      "treatment": "general_corporate"
+    },
+    "Healthcare Products": {
+      "firms": 204,
+      "gross_margin": 0.54,
+      "net_margin": 0.09609999999999999,
+      "receivables_sales": 0.16510000000000002,
+      "inventory_sales": 0.1759,
+      "treatment": "general_corporate"
+    },
+    "Healthcare Support Services": {
+      "firms": 104,
+      "gross_margin": 0.1208,
+      "net_margin": 0.0125,
+      "receivables_sales": 0.0695,
+      "inventory_sales": 0.0345,
+      "treatment": "general_corporate"
+    },
+    "Heathcare Information and Technology": {
+      "firms": 115,
+      "gross_margin": 0.4832,
+      "net_margin": 0.0745,
+      "receivables_sales": 0.19820000000000002,
+      "inventory_sales": 0.1047,
+      "treatment": "general_corporate"
+    },
+    "Homebuilding": {
+      "firms": 30,
+      "gross_margin": 0.22699999999999998,
+      "net_margin": 0.0947,
+      "receivables_sales": 0.0196,
+      "inventory_sales": 0.6202000000000001,
+      "treatment": "general_corporate"
+    },
+    "Hospitals/Healthcare Facilities": {
+      "firms": 31,
+      "gross_margin": 0.391,
+      "net_margin": 0.063,
+      "receivables_sales": 0.1422,
+      "inventory_sales": 0.0171,
+      "treatment": "general_corporate"
+    },
+    "Hotel/Gaming": {
+      "firms": 63,
+      "gross_margin": 0.6085,
+      "net_margin": 0.1038,
+      "receivables_sales": 0.1036,
+      "inventory_sales": 0.0262,
+      "treatment": "general_corporate"
+    },
+    "Household Products": {
+      "firms": 110,
+      "gross_margin": 0.5104,
+      "net_margin": 0.1168,
+      "receivables_sales": 0.0975,
+      "inventory_sales": 0.1155,
+      "treatment": "general_corporate"
+    },
+    "Information Services": {
+      "firms": 15,
+      "gross_margin": 0.3408,
+      "net_margin": 0.0653,
+      "receivables_sales": 0.18359999999999999,
+      "inventory_sales": 0.0009,
+      "treatment": "general_corporate"
+    },
+    "Insurance (General)": {
+      "firms": 21,
+      "gross_margin": 0.447,
+      "net_margin": 0.12369999999999999,
+      "receivables_sales": 0.3028,
+      "inventory_sales": 0.0,
+      "treatment": "specialist_review"
+    },
+    "Insurance (Life)": {
+      "firms": 20,
+      "gross_margin": 0.2999,
+      "net_margin": 0.078,
+      "receivables_sales": 0.2608,
+      "inventory_sales": 0.0,
+      "treatment": "specialist_review"
+    },
+    "Insurance (Prop/Cas.)": {
+      "firms": 57,
+      "gross_margin": 0.3019,
+      "net_margin": 0.11130000000000001,
+      "receivables_sales": 0.1859,
+      "inventory_sales": 0.0,
+      "treatment": "specialist_review"
+    },
+    "Investments & Asset Management": {
+      "firms": 283,
+      "gross_margin": 0.6977,
+      "net_margin": 0.18359999999999999,
+      "receivables_sales": 0.2133,
+      "inventory_sales": 0.0001,
+      "treatment": "specialist_review"
+    },
+    "Machinery": {
+      "firms": 105,
+      "gross_margin": 0.3747,
+      "net_margin": 0.1058,
+      "receivables_sales": 0.19030000000000002,
+      "inventory_sales": 0.16620000000000001,
+      "treatment": "general_corporate"
+    },
+    "Metals & Mining": {
+      "firms": 73,
+      "gross_margin": 0.3468,
+      "net_margin": 0.1052,
+      "receivables_sales": 0.078,
+      "inventory_sales": 0.2048,
+      "treatment": "general_corporate"
+    },
+    "Office Equipment & Services": {
+      "firms": 14,
+      "gross_margin": 0.4143,
+      "net_margin": 0.0438,
+      "receivables_sales": 0.1195,
+      "inventory_sales": 0.1343,
+      "treatment": "general_corporate"
+    },
+    "Oil/Gas (Integrated)": {
+      "firms": 4,
+      "gross_margin": 0.3608,
+      "net_margin": 0.083,
+      "receivables_sales": 0.1223,
+      "inventory_sales": 0.07339999999999999,
+      "treatment": "general_corporate"
+    },
+    "Oil/Gas (Production and Exploration)": {
+      "firms": 142,
+      "gross_margin": 0.5719,
+      "net_margin": 0.1463,
+      "receivables_sales": 0.11259999999999999,
+      "inventory_sales": 0.020099999999999996,
+      "treatment": "general_corporate"
+    },
+    "Oil/Gas Distribution": {
+      "firms": 23,
+      "gross_margin": 0.4337,
+      "net_margin": 0.1335,
+      "receivables_sales": 0.0839,
+      "inventory_sales": 0.0268,
+      "treatment": "general_corporate"
+    },
+    "Oilfield Svcs/Equip.": {
+      "firms": 97,
+      "gross_margin": 0.1109,
+      "net_margin": 0.023399999999999997,
+      "receivables_sales": 0.1016,
+      "inventory_sales": 0.08199999999999999,
+      "treatment": "general_corporate"
+    },
+    "Packaging & Container": {
+      "firms": 19,
+      "gross_margin": 0.2427,
+      "net_margin": 0.044800000000000006,
+      "receivables_sales": 0.1595,
+      "inventory_sales": 0.1359,
+      "treatment": "general_corporate"
+    },
+    "Paper/Forest Products": {
+      "firms": 6,
+      "gross_margin": 0.1714,
+      "net_margin": 0.0344,
+      "receivables_sales": 0.10779999999999999,
+      "inventory_sales": 0.1406,
+      "treatment": "general_corporate"
+    },
+    "Power": {
+      "firms": 46,
+      "gross_margin": 0.4357,
+      "net_margin": 0.1273,
+      "receivables_sales": 0.1301,
+      "inventory_sales": 0.0682,
+      "treatment": "general_corporate"
+    },
+    "Precious Metals": {
+      "firms": 56,
+      "gross_margin": 0.5502,
+      "net_margin": 0.2859,
+      "receivables_sales": 0.0482,
+      "inventory_sales": 0.1284,
+      "treatment": "general_corporate"
+    },
+    "Publishing & Newspapers": {
+      "firms": 19,
+      "gross_margin": 0.5044,
+      "net_margin": 0.0819,
+      "receivables_sales": 0.1435,
+      "inventory_sales": 0.048,
+      "treatment": "general_corporate"
+    },
+    "R.E.I.T.": {
+      "firms": 190,
+      "gross_margin": 0.5808,
+      "net_margin": 0.1323,
+      "receivables_sales": 1.3276,
+      "inventory_sales": 0.044800000000000006,
+      "treatment": "specialist_review"
+    },
+    "Real Estate (Development)": {
+      "firms": 14,
+      "gross_margin": 0.3527,
+      "net_margin": 0.0701,
+      "receivables_sales": 0.034,
+      "inventory_sales": 0.14429999999999998,
+      "treatment": "specialist_review"
+    },
+    "Real Estate (General/Diversified)": {
+      "firms": 12,
+      "gross_margin": 0.5123,
+      "net_margin": 0.2377,
+      "receivables_sales": 0.20170000000000002,
+      "inventory_sales": 2.5067,
+      "treatment": "specialist_review"
+    },
+    "Real Estate (Operations & Services)": {
+      "firms": 54,
+      "gross_margin": 0.3221,
+      "net_margin": 0.011899999999999999,
+      "receivables_sales": 0.12560000000000002,
+      "inventory_sales": 0.011000000000000001,
+      "treatment": "specialist_review"
+    },
+    "Recreation": {
+      "firms": 49,
+      "gross_margin": 0.3979,
+      "net_margin": -0.0472,
+      "receivables_sales": 0.0999,
+      "inventory_sales": 0.1371,
+      "treatment": "general_corporate"
+    },
+    "Reinsurance": {
+      "firms": 1,
+      "gross_margin": 0.1321,
+      "net_margin": 0.038900000000000004,
+      "receivables_sales": 0.1809,
+      "inventory_sales": 0.0,
+      "treatment": "specialist_review"
+    },
+    "Restaurant/Dining": {
+      "firms": 64,
+      "gross_margin": 0.3224,
+      "net_margin": 0.09369999999999999,
+      "receivables_sales": 0.053200000000000004,
+      "inventory_sales": 0.0217,
+      "treatment": "general_corporate"
+    },
+    "Retail (Automotive)": {
+      "firms": 34,
+      "gross_margin": 0.21960000000000002,
+      "net_margin": 0.0336,
+      "receivables_sales": 0.0264,
+      "inventory_sales": 0.16620000000000001,
+      "treatment": "general_corporate"
+    },
+    "Retail (Building Supply)": {
+      "firms": 14,
+      "gross_margin": 0.3422,
+      "net_margin": 0.0784,
+      "receivables_sales": 0.0279,
+      "inventory_sales": 0.1681,
+      "treatment": "general_corporate"
+    },
+    "Retail (Distributors)": {
+      "firms": 62,
+      "gross_margin": 0.3057,
+      "net_margin": 0.0605,
+      "receivables_sales": 0.1283,
+      "inventory_sales": 0.16670000000000001,
+      "treatment": "general_corporate"
+    },
+    "Retail (General)": {
+      "firms": 23,
+      "gross_margin": 0.3318,
+      "net_margin": 0.056100000000000004,
+      "receivables_sales": 0.035,
+      "inventory_sales": 0.0867,
+      "treatment": "general_corporate"
+    },
+    "Retail (Grocery and Food)": {
+      "firms": 15,
+      "gross_margin": 0.2631,
+      "net_margin": 0.0132,
+      "receivables_sales": 0.0175,
+      "inventory_sales": 0.054900000000000004,
+      "treatment": "general_corporate"
+    },
+    "Retail (REITs)": {
+      "firms": 26,
+      "gross_margin": 0.7861,
+      "net_margin": 0.23,
+      "receivables_sales": 0.2169,
+      "inventory_sales": 0.0054,
+      "treatment": "specialist_review"
+    },
+    "Retail (Special Lines)": {
+      "firms": 94,
+      "gross_margin": 0.353,
+      "net_margin": 0.0519,
+      "receivables_sales": 0.016200000000000003,
+      "inventory_sales": 0.18760000000000002,
+      "treatment": "general_corporate"
+    },
+    "Rubber& Tires": {
+      "firms": 3,
+      "gross_margin": 0.17989999999999998,
+      "net_margin": -0.0949,
+      "receivables_sales": 0.1724,
+      "inventory_sales": 0.2158,
+      "treatment": "general_corporate"
+    },
+    "Semiconductor": {
+      "firms": 66,
+      "gross_margin": 0.5897,
+      "net_margin": 0.3045,
+      "receivables_sales": 0.1588,
+      "inventory_sales": 0.1495,
+      "treatment": "general_corporate"
+    },
+    "Semiconductor Equip": {
+      "firms": 31,
+      "gross_margin": 0.4632,
+      "net_margin": 0.2132,
+      "receivables_sales": 0.1877,
+      "inventory_sales": 0.20739999999999997,
+      "treatment": "general_corporate"
+    },
+    "Shipbuilding & Marine": {
+      "firms": 8,
+      "gross_margin": 0.2708,
+      "net_margin": 0.09480000000000001,
+      "receivables_sales": 0.11320000000000001,
+      "inventory_sales": 0.06709999999999999,
+      "treatment": "general_corporate"
+    },
+    "Shoe": {
+      "firms": 11,
+      "gross_margin": 0.4388,
+      "net_margin": 0.06269999999999999,
+      "receivables_sales": 0.121,
+      "inventory_sales": 0.1643,
+      "treatment": "general_corporate"
+    },
+    "Software (Entertainment)": {
+      "firms": 77,
+      "gross_margin": 0.6645,
+      "net_margin": 0.2993,
+      "receivables_sales": 0.1311,
+      "inventory_sales": 0.0,
+      "treatment": "general_corporate"
+    },
+    "Software (Internet)": {
+      "firms": 29,
+      "gross_margin": 0.6258,
+      "net_margin": -0.009300000000000001,
+      "receivables_sales": 0.1631,
+      "inventory_sales": 0.0,
+      "treatment": "general_corporate"
+    },
+    "Software (System & Application)": {
+      "firms": 309,
+      "gross_margin": 0.7172,
+      "net_margin": 0.25489999999999996,
+      "receivables_sales": 0.1684,
+      "inventory_sales": 0.0046,
+      "treatment": "general_corporate"
+    },
+    "Steel": {
+      "firms": 19,
+      "gross_margin": 0.1225,
+      "net_margin": 0.019299999999999998,
+      "receivables_sales": 0.1099,
+      "inventory_sales": 0.1796,
+      "treatment": "general_corporate"
+    },
+    "Telecom (Wireless)": {
+      "firms": 12,
+      "gross_margin": 0.6297999999999999,
+      "net_margin": 0.12240000000000001,
+      "receivables_sales": 0.1117,
+      "inventory_sales": 0.0258,
+      "treatment": "general_corporate"
+    },
+    "Telecom. Equipment": {
+      "firms": 57,
+      "gross_margin": 0.5814,
+      "net_margin": 0.1609,
+      "receivables_sales": 0.1932,
+      "inventory_sales": 0.1012,
+      "treatment": "general_corporate"
+    },
+    "Telecom. Services": {
+      "firms": 39,
+      "gross_margin": 0.5882000000000001,
+      "net_margin": 0.142,
+      "receivables_sales": 0.1283,
+      "inventory_sales": 0.0204,
+      "treatment": "general_corporate"
+    },
+    "Tobacco": {
+      "firms": 10,
+      "gross_margin": 0.6431,
+      "net_margin": 0.26649999999999996,
+      "receivables_sales": 0.08900000000000001,
+      "inventory_sales": 0.2147,
+      "treatment": "general_corporate"
+    },
+    "Transportation": {
+      "firms": 19,
+      "gross_margin": 0.24100000000000002,
+      "net_margin": 0.0823,
+      "receivables_sales": 0.1204,
+      "inventory_sales": 0.0022,
+      "treatment": "general_corporate"
+    },
+    "Transportation (Railroads)": {
+      "firms": 4,
+      "gross_margin": 0.5096,
+      "net_margin": 0.2473,
+      "receivables_sales": 0.0805,
+      "inventory_sales": 0.0291,
+      "treatment": "general_corporate"
+    },
+    "Trucking": {
+      "firms": 26,
+      "gross_margin": 0.2119,
+      "net_margin": 0.0379,
+      "receivables_sales": 0.124,
+      "inventory_sales": 0.0034999999999999996,
+      "treatment": "general_corporate"
+    },
+    "Utility (General)": {
+      "firms": 14,
+      "gross_margin": 0.44179999999999997,
+      "net_margin": 0.1418,
+      "receivables_sales": 0.1331,
+      "inventory_sales": 0.0836,
+      "treatment": "general_corporate"
+    },
+    "Utility (Water)": {
+      "firms": 14,
+      "gross_margin": 0.5897,
+      "net_margin": 0.2116,
+      "receivables_sales": 0.16010000000000002,
+      "inventory_sales": 0.0288,
+      "treatment": "general_corporate"
+    },
+    "Total Market": {
+      "firms": 5994,
+      "gross_margin": 0.3776,
+      "net_margin": 0.0974,
+      "receivables_sales": 0.484,
+      "inventory_sales": 0.08,
+      "treatment": "aggregate_reference_only"
+    },
+    "Total Market (without financials)": {
+      "firms": 4822,
+      "gross_margin": 0.3439,
+      "net_margin": 0.08560000000000001,
+      "receivables_sales": 0.12390000000000001,
+      "inventory_sales": 0.08990000000000001,
+      "treatment": "aggregate_reference_only"
+    }
+  }
+}

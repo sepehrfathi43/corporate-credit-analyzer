@@ -1,0 +1,205 @@
+{
+  "company": "W.W. Grainger, Inc. and Subsidiaries",
+  "cik": 277135,
+  "currency": "USD",
+  "unit": "currency_units",
+  "sector": "nonfinancial",
+  "published": "2026-02-03",
+  "assurance": "unaudited earnings release",
+  "data_kind": "real public financials, manually transcribed",
+  "source_url": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx",
+  "periods": [
+    {
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "facts": {
+        "revenue": {
+          "value": 17942000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated statements of earnings, twelve months ended December 31 2025",
+          "reported_value_millions": 17942,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "assets": {
+          "value": 8962000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2025",
+          "reported_value_millions": 8962,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "liabilities": {
+          "value": 4821000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2025 | derived: total assets minus total shareholders equity",
+          "reported_value_millions": 4821,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "equity": {
+          "value": 4141000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2025",
+          "reported_value_millions": 4141,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "current_assets": {
+          "value": 5484000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2025",
+          "reported_value_millions": 5484,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "current_liabilities": {
+          "value": 1940000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2025",
+          "reported_value_millions": 1940,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "operating_cash_flow": {
+          "value": 2015000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated statements of cash flows, twelve months ended December 31 2025",
+          "reported_value_millions": 2015,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "cash": {
+          "value": 585000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2025",
+          "reported_value_millions": 585,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "receivables": {
+          "value": 2329000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2025",
+          "reported_value_millions": 2329,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "inventory": {
+          "value": 2394000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2025",
+          "reported_value_millions": 2394,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "capital_expenditure": {
+          "value": 684000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated statements of cash flows, twelve months ended December 31 2025",
+          "reported_value_millions": 684,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "gross_profit": {
+          "value": 7009000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated statements of earnings, twelve months ended December 31 2025",
+          "reported_value_millions": 7009,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "net_income": {
+          "value": 1706000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated statements of earnings, twelve months ended December 31 2025",
+          "reported_value_millions": 1706,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "goodwill": {
+          "value": 360000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2025",
+          "reported_value_millions": 360,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "other_intangibles": {
+          "value": 265000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2025",
+          "reported_value_millions": 265,
+          "normalization": "USD millions multiplied by 1000000"
+        }
+      }
+    },
+    {
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "facts": {
+        "revenue": {
+          "value": 17168000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated statements of earnings, twelve months ended December 31 2024",
+          "reported_value_millions": 17168,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "assets": {
+          "value": 8829000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2024",
+          "reported_value_millions": 8829,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "liabilities": {
+          "value": 5126000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2024 | derived: total assets minus total shareholders equity",
+          "reported_value_millions": 5126,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "equity": {
+          "value": 3703000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2024",
+          "reported_value_millions": 3703,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "current_assets": {
+          "value": 5737000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2024",
+          "reported_value_millions": 5737,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "current_liabilities": {
+          "value": 2305000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2024",
+          "reported_value_millions": 2305,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "operating_cash_flow": {
+          "value": 2111000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated statements of cash flows, twelve months ended December 31 2024",
+          "reported_value_millions": 2111,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "cash": {
+          "value": 1036000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2024",
+          "reported_value_millions": 1036,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "receivables": {
+          "value": 2232000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2024",
+          "reported_value_millions": 2232,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "inventory": {
+          "value": 2306000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2024",
+          "reported_value_millions": 2306,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "capital_expenditure": {
+          "value": 541000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated statements of cash flows, twelve months ended December 31 2024",
+          "reported_value_millions": 541,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "gross_profit": {
+          "value": 6758000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated statements of earnings, twelve months ended December 31 2024",
+          "reported_value_millions": 6758,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "net_income": {
+          "value": 1909000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated statements of earnings, twelve months ended December 31 2024",
+          "reported_value_millions": 1909,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "goodwill": {
+          "value": 355000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2024",
+          "reported_value_millions": 355,
+          "normalization": "USD millions multiplied by 1000000"
+        },
+        "other_intangibles": {
+          "value": 243000000,
+          "source": "https://invest.grainger.com/investor-news/news-details/2026/GRAINGER-REPORTS-RESULTS-FOR-THE-FOURTH-QUARTER-AND-FULL-YEAR-2025/default.aspx | condensed consolidated balance sheets, December 31 2024",
+          "reported_value_millions": 243,
+          "normalization": "USD millions multiplied by 1000000"
+        }
+      }
+    }
+  ]
+}
